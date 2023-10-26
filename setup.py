@@ -37,7 +37,7 @@ setup(
     packages=find_namespace_packages(include=["dbt", "dbt.*"]),
     include_package_data=True,
     install_requires=[
-        "dbt-core @ git+https://github.com/dbt-labs/dbt-core.git@v1.7.0rc1#egg=dbt-core",
+        "dbt-core @ git+https://github.com/dbt-labs/dbt-core.git@main#egg=dbt-core",
         "duckdb>=0.7.0",
     ],
     extras_require={
